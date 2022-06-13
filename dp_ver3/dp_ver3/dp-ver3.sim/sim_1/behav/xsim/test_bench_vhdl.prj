@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../vivado_part/example/gpio_led/gpio_led/gpio_led.ip_user_files/bd/design_1/ip/design_1_rst_ps8_0_96M_0/sim/design_1_rst_ps8_0_96M_0.vhd" \
+"../../../../../../vivado_part/example/gpio_led/gpio_led/gpio_led.ip_user_files/bd/design_1/ip/design_1_v_tc_0_0/sim/design_1_v_tc_0_0.vhd" \
+"../../../../../../vivado_part/example/gpio_led/gpio_led/gpio_led.ip_user_files/bd/design_1/ip/design_1_rst_ps8_0_96M_1/sim/design_1_rst_ps8_0_96M_1.vhd" \
+
+# Do not sort compile order
+nosort

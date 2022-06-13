@@ -1,0 +1,10 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 95d263053d4b4dcfa82f10f8e2caa522 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L axi_lite_ipif_v3_0_4 -L v_tc_v6_1_13 -L v_vid_in_axi4s_v4_0_9 -L v_axi4s_vid_out_v4_0_12 -L v_tc_v6_2_2 -L v_tpg_v8_1_2 -L xlconcat_v2_1_4 -L xlconstant_v1_1_7 -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_10 -L zynq_ultra_ps_e_vip_v1_0_10 -L gigantic_mux -L generic_baseblocks_v2_1_0 -L fifo_generator_v13_2_5 -L axi_data_fifo_v2_1_23 -L axi_register_slice_v2_1_24 -L axi_protocol_converter_v2_1_24 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <design_1_ila_0_0> not found while processing module instance <ila_0> [C:/Users/willylin/Desktop/vivado_part/example/gpio_led/gpio_led/gpio_led.ip_user_files/bd/design_1/sim/design_1.v:166]
+ERROR: [VRFC 10-2063] Module <design_1_ila_1_0> not found while processing module instance <ila_1> [C:/Users/willylin/Desktop/vivado_part/example/gpio_led/gpio_led/gpio_led.ip_user_files/bd/design_1/sim/design_1.v:173]
+ERROR: [VRFC 10-2063] Module <design_1_system_ila_0_1> not found while processing module instance <system_ila_0> [C:/Users/willylin/Desktop/vivado_part/example/gpio_led/gpio_led/gpio_led.ip_user_files/bd/design_1/sim/design_1.v:199]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
